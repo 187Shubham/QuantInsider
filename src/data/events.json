@@ -1,0 +1,47 @@
+[
+    {
+        "name": "iitd",
+        "path": "/events/iitd.png",
+        "id": 0
+    },
+    {
+        "name": "ism",
+        "path": "/events/ism.png",
+        "id": 1
+    },
+    {
+        "name": "bits",
+        "path": "/events/bits.png",
+        "id": 2
+    },
+    {
+        "name": "christ",
+        "path": "/events/christ.png",
+        "id": 3
+    },
+    {
+        "name": "ism",
+        "path": "/events/ism.png",
+        "id": 4
+    },
+    {
+        "name": "iitd",
+        "path": "/events/iitd.png",
+        "id": 5
+    },
+    {
+        "name": "qapp",
+        "path": "/events/qapp.png",
+        "id": 6
+    },
+    {
+        "name": "bse",
+        "path": "/events/bse.png",
+        "id": 7
+    },
+    {
+        "name": "bits",
+        "path": "/events/bits.png",
+        "id": 8
+    }
+]
