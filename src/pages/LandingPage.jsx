@@ -14,6 +14,7 @@ import NumberTicker from '@/components/ui/number-ticker';
 import { NeonGradientCard } from '@/components/ui/neon-gradient-card';
 import { GallerySlider } from '@/components/GallerySlider';
 import { AlgoBulls } from '@/components/AlgoBulls';
+import About from '@/components/About';
 
 
 const LandingPage = () => {
@@ -67,7 +68,7 @@ const LandingPage = () => {
                                     <img
                                         src={path}
                                         alt={name}
-                                        className="h-14 sm:h-24 object-contain"
+                                        className="h-20 sm:h-36 object-contain"
                                     />
                                 </CarouselItem>
                             ))}
@@ -117,21 +118,16 @@ const LandingPage = () => {
                         <h1 className="text-center pointer-events-none z-10 h-full whitespace-pre-wrap bg-gradient-to-br from-[#ff2975] from-35% to-[#00FFF1] bg-clip-text text-4xl font-extrabold tracking-tighter text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
                             Our Mission
                         </h1>
-                        <span className="text-lg py-20">
-                            At Quant Insider, our mission is all about you. We're here to empower individuals, like you, with the
-                            knowledge, skills, and guidance you need to thrive in the dynamic world of quantitative finance.
-                            We're not just a service; we're your partner on the journey to success. We provide a comprehensive
-                            suite of resources and unwavering support to help you excel in high-frequency trading, hedge funds,
-                            proprietary trading desks, mid-frequency firms, low-frequency firms.
+                        <span className="text-base sm:text-lg py-20">
+                            We bridge the gap between theoretical learning and practical application by providing cutting-edge education, hands-on tools, and personalized guidance to help you master the art and science of quantitative finance.
                         </span>
                     </NeonGradientCard>
                     <NeonGradientCard className="w-full lg:w-1/2 justify-center text-center">
                         <h1 className="text-center pointer-events-none z-10 h-full whitespace-pre-wrap bg-gradient-to-br from-[#ff2975] from-35% to-[#00FFF1] bg-clip-text text-4xl font-extrabold tracking-tighter text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
                             Our Vision
                         </h1>
-                        <span className="text-lg">
-                            Our vision at Quant Insider is to be your go-to destination for a rewarding career in quantitative finance. We envision a global community of enthusiasts where you're a valued member, not just a face in the crowd. We're here to help you ace interviews, land your dream job, and master the math and technical knowledge driving success in this field. Through innovative services, personalized guidance, and continuous learning, we aim to nurture future leaders and innovators.
-                        </span>
+                        <span className="text-base sm:text-lg">
+                            To democratize access to specialized knowledge, tools, and resources, enabling everyone to succeed in the competitive world of quantitative finance and algorithmic trading, regardless of their background or location.                        </span>
                     </NeonGradientCard>
                 </div>
 
@@ -152,6 +148,13 @@ const LandingPage = () => {
             <div className='mt-14 sm:mt-20 flex flex-col items-center'>
                 <h1 className='text-center text-black text-5xl md:text-6xl lg:text-8xl tracking-tighter font-extrabold'>Testimonials</h1>
                 <Testimonials />
+            </div>
+
+
+            {/* About Us */}
+            <div className='flex flex-col items-center justify-center item-centre px-3 mt-10 sm:mt-20' id="about">
+                <h1 className='text-center text-black text-5xl md:text-6xl lg:text-7xl tracking-tighter mt-5 sm:mt-20 font-extrabold p-4'>About Us</h1>
+                <About/>
             </div>
 
 

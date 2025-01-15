@@ -14,7 +14,7 @@ const AppLayout = () => {
             </main>
 
 
-            <div className="p-4 bg-gray-900 mt-10 flex items-center justify-between">
+            <div className="relative p-4 bg-gray-900 mt-10 flex items-center justify-between">
                 <div className="w-24"> {/* Empty div for spacing */}</div>
 
                 <div className="text-sm text-white font-lg text-center">

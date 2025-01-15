@@ -59,7 +59,7 @@ const Enterprise = () => {
                 </div>
               ))}
               <Link onClick={() => scrollToSection("request-demo")}>
-                <InteractiveHoverButton />
+                <InteractiveHoverButton text="Request Demo"/>
               </Link>
 
             </div>

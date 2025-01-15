@@ -26,10 +26,11 @@ const Header = () => {
                 <div className='flex-1 flex justify-center space-x-2 sm:space-x-4 lg:space-x-6 items-center font-sans font-lg text-base sm:text-base md:text-lg sm:backdrop-blur-xl'>
                     <Link to="/education"><h1>Education</h1></Link>
                     <Link to="enterprise"><h1>Enterprise</h1></Link>
-                    <Link onClick={() => scrollToSection("contact-us")}><h1>Contact Us</h1></Link>
+                    <Link to="/events" ><h1>Events</h1></Link>
 
                     {/* Hidden on smaller screens */}
-                    <Link onClick={() => scrollToSection("event")} className="hidden lg:block"><h1>Events</h1></Link>
+                    <Link className="hidden lg:block" to="/about"><h1>About</h1></Link>
+                    <Link className="hidden lg:block" onClick={() => scrollToSection("contact-us")}><h1>Contact Us</h1></Link>
 
                 </div>
 

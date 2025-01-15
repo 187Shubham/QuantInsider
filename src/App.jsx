@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage';
 import Enterprise from './pages/Enterprise';
 import Events from './pages/Events';
 import Education from './pages/Education';
+import About from './pages/About';
 
 function App() {
 
@@ -23,6 +24,9 @@ function App() {
       },{
         path: "/education",
         element: <Education/>
+      },{
+        path: "/about",
+        element: <About/>
       }
     ]
   }])
