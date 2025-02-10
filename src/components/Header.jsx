@@ -27,9 +27,11 @@ const Header = () => {
                     <Link to="/education"><h1>Education</h1></Link>
                     <Link to="enterprise"><h1>Enterprise</h1></Link>
                     <Link to="/events" ><h1>Events</h1></Link>
+                    <Link className="hidden lg:block" to="/hiring"><h1>Hiring Services</h1></Link>
 
                     {/* Hidden on smaller screens */}
                     <Link className="hidden lg:block" to="/about"><h1>About</h1></Link>
+                    {/* <Link className="hidden lg:block" to="/jobs"><h1>Jobs</h1></Link> */}
                     <Link className="hidden lg:block" onClick={() => scrollToSection("contact-us")}><h1>Contact Us</h1></Link>
 
                 </div>

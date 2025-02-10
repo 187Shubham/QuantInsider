@@ -31,7 +31,7 @@ const LandingPage = () => {
                 {/* Section Para */}
                 <div className='text-center text-xs lg:text-lg tracking tracking-tighter flex flex-col px-3'>
                     <p>Learn from industry experts with our quant courses and cutting-edge <b>algo trading software,</b></p>
-                    <p>paying your way to <b>Hedge funds, HFTs, and top-tier investment banks.</b></p>
+                    <p>paving your way to <b>Hedge funds, HFTs, and top-tier investment banks.</b></p>
                 </div>
 
                 {/* Buttons */}
@@ -88,7 +88,7 @@ const LandingPage = () => {
                     <div>
                         <div className="flex items-center justify-center whitespace-pre-wrap text-5xl sm:text-5xl md:text-7xl lg:text-9xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-blue-600 drop-shadow-lg">
                             <span>
-                                <NumberTicker value={105} className="text-blue-600" />
+                                <NumberTicker value={111} className="text-blue-600" />
                             </span>
                             <span className="ml-2 text-5xl sm:text-5xl md:text-7xl lg:text-9xl">K+</span>
                         </div>
@@ -100,7 +100,7 @@ const LandingPage = () => {
                     <div>
                         <div className="flex items-center justify-center whitespace-pre-wrap text-5xl sm:text-5xl md:text-7xl lg:text-9xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-orange-600 drop-shadow-lg">
                             <span>
-                                <NumberTicker value={2800} className="text-orange-600" />
+                                <NumberTicker value={3200} className="text-orange-600" />
                             </span>
                             <span className="ml-2 text-5xl sm:text-5xl md:text-7xl lg:text-9xl">+</span>
                         </div>

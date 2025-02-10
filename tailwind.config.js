@@ -66,7 +66,8 @@ export default {
     			'fade-in-up': 'fade-in-up 0.8s ease-out',
     			'fade-in-bounce': 'fadeInBounce 1.5s ease-in-out',
     			shine: 'shine var(--duration) infinite linear',
-    			meteor: 'meteor 5s linear infinite'
+    			meteor: 'meteor 5s linear infinite',
+    			'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear'
     		},
     		keyframes: {
     			'shimmer-slide': {
@@ -166,6 +167,11 @@ export default {
     				'100%': {
     					transform: 'rotate(215deg) translateX(-500px)',
     					opacity: '0'
+    				}
+    			},
+    			'border-beam': {
+    				'100%': {
+    					'offset-distance': '100%'
     				}
     			}
     		}

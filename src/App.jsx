@@ -6,6 +6,8 @@ import Enterprise from './pages/Enterprise';
 import Events from './pages/Events';
 import Education from './pages/Education';
 import About from './pages/About';
+import Job from './pages/Job';
+import Hiring from './pages/Hiring';
 
 function App() {
 
@@ -27,6 +29,9 @@ function App() {
       },{
         path: "/about",
         element: <About/>
+      },{
+        path: "/hiring",
+        element: <Hiring/>
       }
     ]
   }])

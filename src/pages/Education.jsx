@@ -72,22 +72,22 @@ const Education = () => {
 
   const otherPackages = [
     {
-      path: "/education/otherpackage.png",
+      path: "/education/other/1.png",
       title: "Resume Writing / Review",
       description: "Beat 99% of the applicants and let your resume take you to the interview table. You will learn to make tailored resume for Job Description, effective use of keywords, and bullet points to create an resume.",
       link: "https://topmate.io/quant_insider/587767"
     }, {
-      path: "/education/otherpackage.png",
+      path: "/education/other/2.png",
       title: "Quant Job Search Assistance",
       description: "Leverage research-backed tactics and frameworks to guarantee job search domination. Take command of your career trajectory! Within these 30 min sessions, we will assist you in developing a job search strategy.",
       link: "https://topmate.io/quant_insider/778644"
     }, {
-      path: "/education/otherpackage.png",
+      path: "/education/other/3.png",
       title: "1:1 Consultation",
       description: "Connect 1:1 with us over a video call to discuss anything you want to related to preparation for Quant profiles. Get your Queries Addressed. Personalized career growth plan, resources",
       link: "https://topmate.io/quant_insider/587766"
     }, {
-      path: "/education/otherpackage.png",
+      path: "/education/other/4.png",
       title: "Long term Mentorship",
       description: "One Career Catalyst session. \n 1-1 Consultation sessions. \n One CV Review/Writing. \n Two mock interviews. ",
       link: "https://topmate.io/quant_insider/623359"

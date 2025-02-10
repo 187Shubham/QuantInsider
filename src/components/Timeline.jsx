@@ -13,7 +13,7 @@ export function TimelineDemo() {
         clearInterval(timer);
         return prev;
       });
-    }, 200);
+    }, 100);
 
     return () => clearInterval(timer);
   }, []);
@@ -22,12 +22,12 @@ export function TimelineDemo() {
   const data = [
     {
       title: "IIT Kharagpur",
-      dates: "Upcoming Jan 2025",
+      dates: "9 Jan - 21 Jan 2025",
       content: (
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Quant Insider is conducting Quant Quest (Algo Trading competition) at Kshitij Fest 2025 IIT Kharaghpur
+            Quant Insider conducted Quant Quest (Algo Trading competition) at Kshitij Fest 2025 IIT Kharaghpur
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img

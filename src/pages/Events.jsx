@@ -7,7 +7,7 @@ const Events = () => {
   return (
     <div>
 
-      <div className='mt-10 sm:mt-20 px-5 sm:px-10'>
+      <div className='mt-10 sm:mt-20 px-5 sm:px-10' id='top'>
         <BlurIn
           word="EVENTS"
           duration={1}
