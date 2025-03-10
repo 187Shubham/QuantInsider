@@ -21,6 +21,32 @@ export function TimelineDemo() {
 
   const data = [
     {
+      title: "IISc Bangalore",
+      dates: "3rd March 2025",
+      content: (
+        <div>
+          <p
+            className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
+            Quant Finance career and Market Making competition at IISC bangalore
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="./eventsection/IISC/IISC01.jpg"
+              alt="hero template"
+              width={500}
+              height={800}
+              className="rounded-lg object-cover h-28 md:h-44 lg:h-72 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+            <img
+              src="./eventsection/IISC/IISC03.jpg"
+              alt="hero template"
+              width={500}
+              height={800}
+              className="rounded-lg object-cover h-28 md:h-44 lg:h-72 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          </div>
+        </div>
+      )
+    },
+    {
       title: "IIT Kharagpur",
       dates: "9 Jan - 21 Jan 2025",
       content: (
